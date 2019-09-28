@@ -2,10 +2,10 @@ version: "3"
 
 services:
   server:
-    container_name: html
+    container_name: HTMLESC
     image: nginx:1.16.1
     volumes:
-    - ./:/usr/share/nginx/html
+    - ./:/usr/share/nginx/HTMLESC
     - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     ports:
     - 80:80
